@@ -1,0 +1,7 @@
+getgenv().Farmer = true
+
+while wait() do
+    if getgenv().Farmer == true then
+        game:service'ReplicatedStorage'.Remotes.Tap:FireServer("Click")
+    end
+end
